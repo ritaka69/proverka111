@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Unbounded', sans-serif;
+  background: #fff;
+  color: #1a1a1a;
+}
+
+.top-bar {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 2px solid #eee;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo span {
+  color: crimson;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.icons {
+  margin-left: 20px;
+}
+
+.st {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fce4df;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.why-us {
+  background: #fff;
+  padding: 40px;
+}
+
+.why-us h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.why-us p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.free-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background: #f9f9f9;
+  padding: 30px 0;
+}
+
+.btn {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.problems {
+  background: #fff;
+  padding: 40px;
+}
+
+.problems h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.problem-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 220px;
+  background: #f4f4f4;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
